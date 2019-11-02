@@ -15,12 +15,14 @@ Features in a nutshell:
 - Voice toggles for turning individual voices on and off. Also includes a fade control so that toggling voices on and off occurs gradually.
 - A voice output section that lets you route individual voices to their own audio track.
 
-To route a voice to a separate audio track in Live, create a new audio track and select "Chordial" in the Audio From chooser. Currently the voices are selected by choosing the following outputs from Choridal:
+To route a voice to a separate audio track in Live, create a new audio track and select "Chordial" in the Audio From chooser. Currently the voices are selected by choosing the following outputs from an instance of Choridal:
 
 - Root: 3/4-Chordial
 - 3rd:  5/6-Chordial
 - 5th:  7/8-Chordial
 - 7th:  9/10-Chordial
+
+Here's what an instance of Chordial with each voice mapped to an audio track would look like in Live's mixer:
 
 ![Cordial Routing Image](chordial-routing.jpg)
 
