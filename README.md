@@ -7,7 +7,7 @@ Chordial is a monophonic chord oscillator with four different pitches that are t
 
 Features in a nutshell:
 
-- Smoothly fades from sine to triangle to saw.
+- Continuously variable waveshape from sine to triangle to saw.
 - Drone mode for...drones. Env mode for traditional monophonic playing.
 - 4 different chord voicings: Close, Drop 2, Drop 3, and Spread.
 - 4 different chord inversions: Root, 1st, 2nd, 3rd.
