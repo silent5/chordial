@@ -3,7 +3,7 @@ A Max For Live chord oscillator device based on the Chord eurorack module (V1) b
 
 ![Chordial Image](chordial.jpg)
 
-This is a monophonic chord oscillator with four different voices that are tuned to a variety of chord shapes.  
+This is a monophonic chord oscillator with four different pitches that are tuned to a variety of chord shapes.  
 
 Features in a nutshell:
 
@@ -12,7 +12,7 @@ Features in a nutshell:
 - 4 different chord voicings: Close, Drop 2, Drop 3, and Spread.
 - 4 different chord inversions: Root, 1st, 2nd, 3rd.
 - 4 different chord qualities: Major, Minor, Sus2, and Sus4. The m7 button lets you change the 7th in sus mode from minor to major.
-- Voice toggles for turning individual voices on and off. Also includes a fade control so that toggling voices on and off occurs gradually.
+- Voice toggles for turning individual chord voices on and off. Also includes a fade control that applies a variable fade-in/fade-out to the toggle.
 - A voice output section that lets you route individual voices to their own audio track.
 
 To route a voice to a separate audio track in Live, create a new audio track and select "Chordial" in the Audio From chooser. Currently the voices are selected by choosing the following outputs from an instance of Choridal:
