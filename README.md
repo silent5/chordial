@@ -10,7 +10,7 @@ Features in a nutshell:
 - Continuously variable waveshape from sine to triangle to saw.
 - Drone mode for...drones. Env mode for traditional monophonic playing.
 - 4 different chord voicings: Close, Drop 2, Drop 3, and Spread.
-- 4 different chord inversions: Root, 1st, 2nd, 3rd.
+- 4 different chord inversions: Root, 1st, 2nd, and 3rd.
 - 4 different chord qualities: Major, Minor, Sus2, and Sus4. The m7 button lets you change the 7th in Sus2 and Sus4 mode from minor to major.
 - Voice toggles for turning individual chord voices on and off. Also includes a fade control that applies a variable fade-in/fade-out to the toggle.
 - A voice output section that lets you route individual voices to their own audio track.
