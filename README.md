@@ -2,6 +2,7 @@
 A set of Max For Live devices based on the Chord eurorack module (V1) by Qu-Bit Electronix.
 
 ![Chordial Image](Chordial.jpg)
+
 ![ChordialMIDI Image](ChordialMIDI.jpg)
 
 Chordial is a monophonic chord oscillator with four different pitches that are tuned to a variety of chord shapes.  
