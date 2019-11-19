@@ -3,9 +3,11 @@ A set of Max For Live devices based on the Chord eurorack module (V1) by Qu-Bit 
 
 ![Chordial Image](Chordial.jpg)
 
+Chordial is a monophonic chord oscillator with four different pitches that are tuned to a variety of chord shapes.  
+
 ![ChordialMIDI Image](ChordialMIDI.jpg)
 
-Chordial is a monophonic chord oscillator with four different pitches that are tuned to a variety of chord shapes.  
+Chordial MIDI is a MIDI Effect that outputs four different pitches that are tuned to a variety of chord shapes.
 
 Features in a nutshell:
 
@@ -13,7 +15,7 @@ Features in a nutshell:
 - Drone mode for...drones. Env mode for traditional monophonic playing.
 - 4 different chord voicings: Close, Drop 2, Drop 3, and Spread.
 - 4 different chord inversions: Root, 1st, 2nd, and 3rd.
-- 4 different chord qualities: Major, Minor, Sus2, and Sus4. The m7 button lets you change the 7th in Sus2 and Sus4 mode from minor to major.
+- 4 different chord qualities: Major, Minor, and two user selectable qualities (sus2, sus2maj7, sus4, sus4maj7, dominant, half-diminished). 
 - Voice toggles for turning individual chord voices on and off. Also includes a fade control that applies a variable fade-in/fade-out to the toggle.
 - A voice output section that lets you route individual voices to their own audio track.
 
