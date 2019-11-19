@@ -73,6 +73,8 @@ Here's what an instance of Chordial with each voice mapped to an audio track wou
 
 ![Cordial Routing Image](img/chordial-routing.jpg)
 
+
+
 # Chordial MIDI User Guide
 
 ![ChordialMIDI Image](img/ChordialMIDI.jpg)
@@ -98,9 +100,11 @@ The **Velocity Mode** selector chooses between the following two modes of operat
 - Key: Chordial tracks incoming velocity as you'd expect. The velocity value received at input is passed along
 to all four chord voices.
 
-- Slider:Chordial will ignore any incoming velocity values, and instead apply the value set by the velocity sliders
+- Slider: Chordial will ignore any incoming velocity values, and instead apply the value set by the velocity sliders
 to each chord voice. This allows you to set a different velocity value for each chord voice every time a new incoming
 note is detected.
+
+The sliders below the Velocity Mode selector set the outgoing velocity value for each chord voice when in Slider mode.
 
 ### The Voice Toggle section
 
@@ -116,7 +120,6 @@ The knob on the left changes between chord voicings.  The knob in the middle cha
 right (plus the two drop-down menus) change the chord quality. Just play with these and see what they do!
 
 
-
 ### The Voice Delay section
 
 ![delays image](img/delays.jpg)
@@ -126,9 +129,6 @@ chord voice button at the left of this section (R, 3, 5, 7) to activate the dela
 
 - ms: a chord voice can be delayed from 0 up to 1000 milliseconds.
 - note: a chord voice can be delayed by a musical time interval, from a 64th note through to a full bar, synchronized
-to Live's transport.
+to Live's transport. **If note mode is activated, you'll only hear the delayed note if Live's transport is running!**
 
-* If note mode is activated, you'll only hear the delayed note if Live's transport is running!
-* When a voice delay is activated, any parameter changes that cause that voice to be retriggered will be
-  subject to the voice delay amount. For example, if you set a delay of 1/8th note to the Root voice and then
-  change the Inversion amount, the Root voice will change 1/8th note later.
+When a voice delay is activated, any parameter changes that cause that voice to be retriggered will be subject to the voice delay amount. For example, if you set a delay of 1/8th note to the Root voice and then change the Inversion amount, the Root voice will change 1/8th note later.
