@@ -3,11 +3,11 @@ A set of Max For Live devices based on the Chord eurorack module (V1) by Qu-Bit 
 
 ![Chordial Image](img/Chordial.jpg)
 
-Chordial is a monophonic chord oscillator with four different pitches that are tuned to a variety of chord shapes.  
+**Chordial** is a monophonic chord oscillator with four different pitches that are tuned to a variety of chord shapes.  
 
 ![ChordialMIDI Image](img/ChordialMIDI.jpg)
 
-Chordial MIDI is a MIDI Effect that outputs four different pitches that are tuned to a variety of chord shapes.
+**Chordial MIDI** is a MIDI Effect that outputs four different pitches that are tuned to a variety of chord shapes.
 
 Features in a nutshell:
 
@@ -77,29 +77,28 @@ Here's what an instance of Chordial with each voice mapped to an audio track wou
 
 ![ChordialMIDI Image](img/ChordialMIDI.jpg)
 
-Chordial is made up of four sections:
+Chordial MIDI is made up of four sections:
 
 ### The MIDI Input section
 
-![ChordialMIDI Image](img/ChordialMIDI.jpg)
+![in Image](img/in.jpg)
 
+The Trigger Mode selector chooses between the following two modes of operation:
 
-### Trigger Mode:
-
-Drone - Chordial will sustain the last received MIDI note until you switch back to Key mode. Any incoming
+**Drone** - Chordial will sustain the last received MIDI note until you switch back to Key mode. Any incoming
 MIDI notes while Drone mode is activated will cause all 4 chord voices to be retriggered relative to the
 incoming pitch value. Any parameter changes made while Drone mode is activated will only retrigger those
 notes that are affected by the parameter change.
 
-Key - Chordial tracks incoming MIDI notes as you'd expect. Any parameter changes made while a key is held down
+**Key** - Chordial tracks incoming MIDI notes as you'd expect. Any parameter changes made while a key is held down
 with Key mode activated will only retrigger those notes that are affected by the parameter change.
 
-### Velocity Mode:
+The Velocity Mode selector chooses between the following two modes of operation:
 
-Key - Chordial tracks incoming velocity as you'd expect. The velocity value received at input is passed along
+**Key** - Chordial tracks incoming velocity as you'd expect. The velocity value received at input is passed along
 to all four chord voices.
 
-Slider - Chordial will ignore any incoming velocity values, and instead apply the value set by the velocity sliders
+**Slider** - Chordial will ignore any incoming velocity values, and instead apply the value set by the velocity sliders
 to each chord voice. This allows you to set a different velocity value for each chord voice every time a new incoming
 note is detected.
 
