@@ -1,11 +1,11 @@
 # Chordial
 A set of Max For Live devices based on the Chord eurorack module (V1) by Qu-Bit Electronix.
 
-![Chordial Image](Chordial.jpg)
+![Chordial Image](img/Chordial.jpg)
 
 Chordial is a monophonic chord oscillator with four different pitches that are tuned to a variety of chord shapes.  
 
-![ChordialMIDI Image](ChordialMIDI.jpg)
+![ChordialMIDI Image](img/ChordialMIDI.jpg)
 
 Chordial MIDI is a MIDI Effect that outputs four different pitches that are tuned to a variety of chord shapes.
 
@@ -35,7 +35,7 @@ Note that assigning a voice to the Aux bus removes it from the Mix bus.
 
 Here's what an instance of Chordial with each voice mapped to an audio track would look like in Live's mixer:
 
-![Cordial Routing Image](chordial-routing.jpg)
+![Cordial Routing Image](img/chordial-routing.jpg)
 
 ## How to make sense of Chordial MIDI
 
