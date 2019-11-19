@@ -20,6 +20,8 @@ Features in a nutshell:
 - A voice output section that lets you route individual voices to their own audio track (Chordial only).
 - A simple MIDI delay section that lets you delay each individual chord voice by a set amount, either freely or synchronized to your Live set tempo (Chordial MIDI only).
 
+## How to route the Voice Outputs with Chordial
+
 To route a voice to a separate audio track in Live, create a new audio track, set the monitor state to "In" and select "Chordial" in the Audio From chooser. Currently the voices are selected by choosing the following outputs from an instance of Chordial:
 
 - Root: 3/4-Chordial
