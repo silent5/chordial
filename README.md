@@ -11,13 +11,14 @@ Chordial MIDI is a MIDI Effect that outputs four different pitches that are tune
 
 Features in a nutshell:
 
-- Continuously variable waveshape from sine to triangle to saw.
-- Drone mode for...drones. Env mode for traditional monophonic playing.
+- Continuously variable waveshape from sine to triangle to saw (Chordial only).
+- Drone mode for...drones. Env mode (Chordial)/Key mode (Chordial MIDI) for traditional monophonic playing.
 - 4 different chord voicings: Close, Drop 2, Drop 3, and Spread.
 - 4 different chord inversions: Root, 1st, 2nd, and 3rd.
 - 4 different chord qualities: Major, Minor, and two user selectable qualities (sus2, sus2maj7, sus4, sus4maj7, dominant, half-diminished). 
-- Voice toggles for turning individual chord voices on and off. Also includes a fade control that applies a variable fade-in/fade-out to the toggle.
-- A voice output section that lets you route individual voices to their own audio track.
+- Voice toggles for turning individual chord voices on and off. Also includes a fade control (Chordial only) that applies a variable fade-in/fade-out to the toggle. With Chordial MIDI, a toggle fade is easily handled by the receiving instruments' envelopes.
+- A voice output section that lets you route individual voices to their own audio track (Chordial only).
+- A simple MIDI delay section that lets you delay each individual chord voice by a set amount, either freely or synchronized to your Live set tempo (Chordial MIDI only).
 
 To route a voice to a separate audio track in Live, create a new audio track, set the monitor state to "In" and select "Chordial" in the Audio From chooser. Currently the voices are selected by choosing the following outputs from an instance of Chordial:
 
