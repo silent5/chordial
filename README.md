@@ -20,7 +20,7 @@ Features in a nutshell:
 - A voice output section that lets you route individual voices to their own audio track (Chordial only).
 - A simple MIDI delay section that lets you delay each individual chord voice by a set amount, either freely or synchronized to your Live set tempo (Chordial MIDI only).
 
-## Chordial user guide
+# Chordial user guide
 
 ![Chordial Image](img/Chordial.jpg)
 
@@ -73,7 +73,7 @@ Here's what an instance of Chordial with each voice mapped to an audio track wou
 
 ![Cordial Routing Image](img/chordial-routing.jpg)
 
-## Chordial MIDI User Guide
+# Chordial MIDI User Guide
 
 ![ChordialMIDI Image](img/ChordialMIDI.jpg)
 
@@ -102,19 +102,30 @@ to all four chord voices.
 to each chord voice. This allows you to set a different velocity value for each chord voice every time a new incoming
 note is detected.
 
-### Voice Toggles:
+### The Voice Toggle section
 
-Each button turns a chord voice on or off. If Drone mode is activated, toggling a voice from off to on will cause
-that note to be retriggered. Likewise, if Key mode is activated and a voice is toggled from off to on, that note
-will be retriggered.
+![togglesMIDI Image](img/togglesMIDI.jpg)
 
-### Voice Delays:
+The voice toggle buttons turn each of the chord voices on and off. If Drone mode is activated, toggling a voice from off to on will cause that note to be retriggered. Likewise, if Key mode is activated and a voice is toggled from off to on, that note will be retriggered.
+
+### The Chord Parameter section
+
+![chordParams image](img/chordParams.jpg)
+
+The knob on the left changes between chord voicings.  The knob in the middle changes the inversion of the chord. The knob on the 
+right (plus the two drop-down menus) change the chord quality. Just play with these and see what they do!
+
+
+
+### The Voice Delay section
+
+![delays image](img/delays.jpg)
 
 Each of the outgoing chord voice MIDI notes can be delayed. This can be useful for creating strums or arpeggios. Click on the
-chord voice button to activate the delay for that voice. Each voice delay operates in one of the following two modes:
+chord voice button at the left of this section (R, 3, 5, 7) to activate the delay for that voice. Each voice delay operates in one of the following two modes:
 
-ms - a chord voice can be delayed from 0 up to 1000 milliseconds.
-note - a chord voice can be delayed by a musical time interval, from a 64th note through to a full bar, synchronized
+- ms: a chord voice can be delayed from 0 up to 1000 milliseconds.
+- note: a chord voice can be delayed by a musical time interval, from a 64th note through to a full bar, synchronized
 to Live's transport.
 
 * If note mode is activated, you'll only hear the delayed note if Live's transport is running!
