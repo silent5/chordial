@@ -1,12 +1,12 @@
 # Chordial MIDI User Guide
 
-![ChordialMIDI Image](img/ChordialMIDI.jpg)
+![ChordialMIDI Image](../img/ChordialMIDI.jpg)
 
 Chordial MIDI is made up of four sections:
 
 ### The MIDI Input section
 
-![in Image](img/in.jpg)
+![in Image](../img/in.jpg)
 
 The **Trigger Mode** selector chooses between the following two modes of operation:
 
@@ -31,13 +31,13 @@ The sliders below the Velocity Mode selector set the outgoing velocity value for
 
 ### The Voice Toggle section
 
-![togglesMIDI Image](img/togglesMIDI.jpg)
+![togglesMIDI Image](../img/togglesMIDI.jpg)
 
 The voice toggle buttons turn each of the chord voices on and off. If Drone mode is activated, toggling a voice from off to on will cause that note to be retriggered. Likewise, if Key mode is activated and a voice is toggled from off to on, that note will be retriggered.
 
 ### The Chord Parameter section
 
-![chordParams image](img/chordParams.jpg)
+![chordParams image](../img/chordParams.jpg)
 
 The knob on the left changes between chord voicings.  The knob in the middle changes the inversion of the chord. The knob on the 
 right (plus the two drop-down menus) change the chord quality. Just play with these and see what they do!
@@ -45,7 +45,7 @@ right (plus the two drop-down menus) change the chord quality. Just play with th
 
 ### The Voice Delay section
 
-![delays image](img/delays.jpg)
+![delays image](../img/delays.jpg)
 
 Each of the outgoing chord voice MIDI notes can be delayed. This can be useful for creating strums or arpeggios. Click on the
 chord voice button at the left of this section (R, 3, 5, 7) to activate the delay for that voice. Each voice delay operates in one of the following two modes:
