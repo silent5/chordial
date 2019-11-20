@@ -3,11 +3,11 @@ A set of Max For Live devices based on the Chord eurorack module (V1) by Qu-Bit 
 
 ![Chordial Image](img/Chordial.jpg)
 
-**Chordial** is a monophonic chord oscillator with four different pitches that are tuned to a variety of chord shapes.  
+**Chordial** is a monophonic chord oscillator with four different pitches quantized to a variety of chord shapes.  
 
 ![ChordialMIDI Image](img/ChordialMIDI.jpg)
 
-**Chordial MIDI** is a MIDI Effect that outputs four different pitches that are tuned to a variety of chord shapes.
+**Chordial MIDI** is a MIDI Effect that outputs four different MIDI notes quantized to a variety of chord shapes.
 
 Features in a nutshell:
 
