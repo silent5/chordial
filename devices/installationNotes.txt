@@ -1,11 +1,5 @@
-To install Chordial, copy the file "Chordial.amxd" to wherever you like to keep your Max For Live instrument devices. 
+To install Chordial, copy the file "Chordial.amxd" to wherever you like to keep your Max For Live instrument devices. That should be all there is to it, but if the two drop-down menus for the quality parameter don't appear to be doing anything, it's likely that the required javascript file wasn't included in the frozen device. If this happens, copy the JavaScript file "ChordialShapes.js" to the installation directory (or add it to your Max search path) and reload the device.
 
-NOTE: You must also copy the JavaScript file "ChordialShapes.js" to this directory (or add it to your Max search path) or the device will not 
-work properly.
+To install Chordial MIDI, copy the file "Chordial MIDI.amxd" to wherever you like to keep your Max For Live midi effect devices. That should be all there is to it, but if Choridal MIDI doesn't seem to be working properly, it's likely that the required javascript files weren't included in the frozen device. If this happens, copy the JavaScript files "ChordialShapes.js" and "ChordialMIDI.js" to the installation directory (or add them to your Max search path) and reload the device.
 
-
-To install Chordial MIDI, copy the file "Chordial MIDI.amxd" to wherever you like to keep your Max For Live midi effect devices. 
-
-NOTE: You must also copy the JavaScript files "ChordialShapes.js" and "ChordialMIDI.js" to this directory (or add them to your Max search path) 
-or the device will not work properly.
 
