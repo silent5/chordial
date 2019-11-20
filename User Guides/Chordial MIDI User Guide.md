@@ -54,4 +54,4 @@ chord voice button at the left of this section (R, 3, 5, 7) to activate the dela
 - note: a chord voice can be delayed by a musical time interval, from a 64th note through to a full bar, synchronized
 to Live's transport. **If note mode is activated, you'll only hear the delayed note if Live's transport is running!**
 
-When a voice delay is activated, any parameter changes that cause that voice to be retriggered will be subject to the voice delay amount. For example, if you set a delay of 1/8th note to the Root voice and then change the Inversion amount, the Root voice will change 1/8th note later.
+When a voice delay is activated, any parameter changes that cause that voice to be retriggered will be subject to the voice delay amount. For example, if you set a delay of an 1/8th note to the Root voice and then change the Inversion amount, the Root voice will transpose on the next 1/8th note.
