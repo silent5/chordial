@@ -19,3 +19,9 @@ Features in a nutshell:
 - Voice toggles for turning individual chord voices on and off. Also includes a fade control (Chordial only) that applies a variable fade-in/fade-out to the toggle. With Chordial MIDI, a toggle fade is easily handled by the receiving instrument's envelopes.
 - A voice output section that lets you route individual voices to their own audio track (Chordial only).
 - A simple MIDI delay section that lets you delay each individual chord voice by a set amount, either freely or synchronized to your Live set tempo (Chordial MIDI only).
+
+## User Guides
+
+[Chordial User Guide](https://github.com/silent5/chordial/blob/master/User%20Guides/Chordial%20User%20Guide.md)
+
+[Chordial MIDI User Guide](https://github.com/silent5/chordial/blob/master/User%20Guides/Chordial%20MIDI%20User%20Guide.md)
