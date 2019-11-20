@@ -2,6 +2,8 @@
 
 ![Chordial Image](../img/Chordial.jpg)
 
+To install Chordial, copy the file "Chordial.amxd" to wherever you like to keep your Max For Live instrument devices. You must also copy the JavaScript file "ChordialShapes.js" to this directory (or add it to your Max search path) or the device will not work properly.
+
 Chordial is made up of four sections:
 
 ### The Oscillator section
