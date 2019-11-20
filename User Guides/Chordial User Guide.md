@@ -1,4 +1,4 @@
-# Chordial user guide
+# Chordial User Guide
 
 ![Chordial Image](../img/Chordial.jpg)
 
