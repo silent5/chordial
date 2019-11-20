@@ -2,6 +2,8 @@
 
 ![ChordialMIDI Image](../img/ChordialMIDI.jpg)
 
+To install Chordial MIDI, copy the file "Chordial MIDI.amxd" to wherever you like to keep your Max For Live midi effect devices. You must also copy the JavaScript files "ChordialShapes.js" and "ChordialMIDI.js" to this directory (or add them to your Max search path) or the device will not work properly.
+
 Chordial MIDI is made up of four sections:
 
 ### The MIDI Input section
