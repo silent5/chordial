@@ -6,6 +6,8 @@ To install Chordial MIDI, copy the file "Chordial MIDI.amxd" to wherever you lik
 
 That should be all there is to it, but if something doesn't seem to be working properly, you can try copying the JavaScript files "ChordialShapes.js" and "ChordialMIDI.js" to the install directory (or add them to your Max search path) and then reload the device.
 
+To begin using Chordial MIDI, drop it onto a MIDI track in your Live set. You can either drop it to the left of an instrument device that's already on a MIDI track, or drop it onto a new MIDI track and then place a instrument device to the right of it.
+
 Chordial MIDI is made up of four sections:
 
 ### The MIDI Input section
