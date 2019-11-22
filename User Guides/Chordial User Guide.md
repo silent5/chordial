@@ -6,6 +6,8 @@ To install Chordial, copy the file "Chordial.amxd" to wherever you like to keep 
 
 That should be all there is to it, but if something doesn't seem to be working properly, you can try copying the JavaScript file "ChordialShapes.js" to the install directory (or add it to your Max search path) and then reload the device.
 
+To begin using Chordial, drop it onto a MIDI track in your Live set.
+
 Chordial is made up of four sections:
 
 ### The Oscillator section
